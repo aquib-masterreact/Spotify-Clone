@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favorite Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src = "logo.png" alt ="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        
+       
+        <div class="songlist">
+            <h1>Best Of 2022 Albums</h1>
+            <div class="songitem">
+                <img src="./covers/1.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/2.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/3.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34 </i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/4.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/5.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/6.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+            <div class="songitem">
+                <img src="./covers/7.jpg" alt="1">
+                <span>Let Me Love U</span>
+                <span class="songlistplay"><i class="fa-solid fa-play"></i><span>05:34</span></span>
+            </div>
+        </div>
+        <div class="songBannner"></div>
+    </div>
+    <div class="bottom" >
+        <input type="range" id = "myProgressiveBar" value= "0"min="0" max="100">
+        <div class="icons">
+            <i class="far fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="far fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="20px" id="gif" alt="" >
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b87d81626c.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
